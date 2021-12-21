@@ -1,0 +1,74 @@
+html,body {
+    width: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+body h2 {
+    color: #024204;
+    text-decoration: underline;
+    margin-left: 10px;
+    text-align: center;
+}
+header {
+    width: 100%;
+}
+
+header>.mobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+main {
+    display: grid;
+    grid-template-rows:5fr 4fr 2fr 4fr;
+}
+
+.menus {
+    background-color: #b90000;
+}
+
+.contact {
+    background-color: #e2c672;
+}
+
+.team {
+    background-color: #b90000;
+}
+
+.infos {
+    background-color: #e2c672;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 1px;
+}
+
+footer>.mobile{
+    
+    width: 100%;
+    background-color: #036139;
+    
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+
+
+}
+
+footer>.mobile>div {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
